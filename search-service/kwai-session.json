@@ -85,7 +85,7 @@
       "value": "95ca006e-f0eb-4876-ad4b-2ff3b22c7345",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1810840579,
+      "expires": 1811336725,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -95,7 +95,7 @@
       "value": "95ca006e-f0eb-4876-ad4b-2ff3b22c7345",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1810840579,
+      "expires": 1811336725,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -105,7 +105,7 @@
       "value": "1779041432890_71214577929421624",
       "domain": ".mythad.com",
       "path": "/",
-      "expires": 1813864580.244715,
+      "expires": 1814360726.426919,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -125,7 +125,7 @@
       "value": "CAESEEXAAEEcXs1oujvyjUnRSmk",
       "domain": ".mythad.com",
       "path": "/",
-      "expires": 1813834190.673729,
+      "expires": 1814360306.107053,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -181,11 +181,31 @@
       "sameSite": "Lax"
     },
     {
+      "name": "CLID",
+      "value": "583d9b43707b44019d5eccfa2cc75d78.20260526.20270526",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1811336304.205397,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "1g6fdo8%5E2%5Eg6d%5E0%5E2337",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1811336305,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "_k_gid_collect",
       "value": "1",
       "domain": ".kwai.com",
       "path": "/",
-      "expires": 1779446989,
+      "expires": 1779973105,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -195,47 +215,57 @@
       "value": "1",
       "domain": ".kwai.com",
       "path": "/",
-      "expires": 1779360589,
+      "expires": 1779886705,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "IDE",
-      "value": "AHWqTUkeLRiOZRsp5qWKvuCWavkZ3iB7tRXXO3nR1_l9acaHJzu6i2KjBTFdDuCx7ag",
+      "value": "AHWqTUkR84OzH-srsTjqsqYvC4IY-I5PA8jB71bA9e_3dVrGE8LL12c-4WZo9i3aDsk",
       "domain": ".doubleclick.net",
       "path": "/",
-      "expires": 1813834190.243029,
+      "expires": 1814360305.773777,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
-    },
-    {
-      "name": "FCCDCF",
-      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%2219d644e5-7411-4b59-8437-42a5527d1951%5C%22%2C%5B1779041429%2C436000000%5D%5D%22%5D%5D%5D",
-      "domain": ".kwai.com",
-      "path": "/",
-      "expires": 1812999380,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
     },
     {
       "name": "i18n_redirected",
       "value": "pt-BR",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1810840579,
+      "expires": 1811336725,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sessionId",
-      "value": "79660d62-6bdd-41af-83ea-916a69a820c2",
+      "value": "0015c647-f18d-473e-b34a-af9cb650efbc",
       "domain": "www.kwai.com",
       "path": "/",
       "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1txr5h1%5E1779800726906%5E2%5E0%5Es.clarity.ms%2Fcollect",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1779887126,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%2219d644e5-7411-4b59-8437-42a5527d1951%5C%22%2C%5B1779041429%2C436000000%5D%5D%22%5D%5D%5D",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1813496727,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -251,11 +281,11 @@
         },
         {
           "name": "OTHER_DEVICE_INCREASE_ID",
-          "value": "362"
+          "value": "441"
         },
         {
           "name": "kwai_player_client_increment_id",
-          "value": "18"
+          "value": "22"
         },
         {
           "name": "kwai_player_device_id",
@@ -263,19 +293,19 @@
         },
         {
           "name": "google_ama_config",
-          "value": "[null,[],[1779390980977],null,[],null,[],null,null,null,null,null,null,null,null,null,null,[1,null,null,[]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+          "value": "[null,[],[1779887126801],null,[],null,[],null,null,null,null,null,null,null,null,null,null,[1,null,null,[]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
         },
         {
           "name": "LOAD_DEVICE_INCREASE_ID",
-          "value": "25"
+          "value": "30"
         },
         {
           "name": "WEBLOGGER_CUSTOM_INCREAMENT_ID_KEY",
-          "value": "73"
+          "value": "84"
         },
         {
           "name": "WEBLOGGER_INCREAMENT_ID_KEY",
-          "value": "52"
+          "value": "62"
         },
         {
           "name": "alg",
