@@ -6,9 +6,7 @@ definindo oque cada um vai fazer
 
 
 
-modulo de autenticacao
-- microservico para autenticacao,
-registro e etc..
+
 
 superadmin, admin , cliente
 
