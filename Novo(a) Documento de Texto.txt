@@ -16,9 +16,3 @@ superadmin, admin , cliente
 --------------------------
 modulo de planos
 
-- microservico para escolha de planos,
-aumentar, cancelar o plano em acao,
-verificar o status que o plano tá (se ativo ou nao)
-ou qual plano ta usando, 
-
-------------------------------d----dddddddddddddddddddddd
