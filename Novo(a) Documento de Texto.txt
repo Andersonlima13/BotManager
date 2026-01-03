@@ -2,8 +2,40 @@
 
 admin - visao administrativa, cadastra 
 bots para a empresa, configura bots,
-definindo oque cada um vai fazer
+definindo oque cada um vai QWfazer
 
+
+
+
+admin - visao administrativa, cadastra 
+bots para a empresa, configura bots,
+definindo oque cada um vai QWfazer
+
+
+
+
+
+superadmin, admin , cliente
+
+
+--------------------------
+modulo de planos
+
+
+
+admin - visao administrativa, cadastra 
+bots para a empresa, configura bots,
+definindo oque cada um vai QWfazer
+
+
+
+
+
+superadmin, admin , cliente
+
+
+--------------------------
+modulo de planos
 
 
 
