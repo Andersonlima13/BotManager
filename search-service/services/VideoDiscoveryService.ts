@@ -1,9 +1,9 @@
-import { KwaiApiService } from '/services/KwaiApiService'
-import { Video } from '/interfaces/Video'
-import { VideoMapper } from '/mappers/VideoMapper'
+import { KwaiApiService } from '../services/KwaiApiService.js'
+import { Video } from '../model/Video.js'
+import { VideoMapper } from '../services/VideoMapper.js'
 
 
-class VideoDiscoveryService {
+export class VideoDiscoveryService {
   constructor(
     private api: KwaiApiService,
     private mapper: VideoMapper

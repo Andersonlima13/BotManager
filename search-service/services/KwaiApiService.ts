@@ -1,4 +1,4 @@
-import { ApiUrl } from "/api/ApiUrl"
+import { ApiUrl } from "../api/ApiUrl.js"
 
 export class KwaiApiService {
   async getFeed(count: number) {

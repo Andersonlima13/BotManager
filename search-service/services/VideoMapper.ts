@@ -1,7 +1,7 @@
-import { Video } from "../interfaces/Video"
+import { Video } from "../model/Video.js"
 
-class VideoMapper {
-  static toDomain(raw: any): Video {
+export class VideoMapper {
+   toDomain(raw: any): Video {
     return {
       id: raw.photo_id,
       caption: raw.caption,
