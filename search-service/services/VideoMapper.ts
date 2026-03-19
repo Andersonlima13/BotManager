@@ -7,6 +7,7 @@ export class VideoMapper {
       caption: raw.caption,
       createdAt: raw.timestamp,
       userId: raw.user_id,
+      
       media: {
         videoId: raw.photo_id,
         url: raw.main_mv_urls?.[0]?.url,
@@ -15,6 +16,7 @@ export class VideoMapper {
         height: raw.main_mv_urls?.[0]?.height,
         localPath: null
       },
+
       metrics: {
         videoId: raw.photo_id,
         likes: raw.like_count,
@@ -22,6 +24,8 @@ export class VideoMapper {
         comments: raw.comment_count,
         shares: raw.share_count
       }
+
+
     }
   }
 }
