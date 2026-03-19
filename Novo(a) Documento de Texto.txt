@@ -1,0 +1,26 @@
+- superadmin - admnistrador do sistema
+
+
+admin - visao administrativa, cadastra 
+bots para a empresa, configura bots,
+definindo oque cada um vai fazer
+
+
+
+modulo de autenticacao
+- microservico para autenticacao,
+registro e etc..
+
+superadmin, admin , cliente
+
+
+--------------------------
+modulo de planos
+
+- microservico para escolha de planos,
+aumentar, cancelar o plano em acao,
+verificar o status que o plano tá (se ativo ou nao)
+ou qual plano ta usando, conectar com apis de pagamento
+tipo stripe
+
+----------------------------------
