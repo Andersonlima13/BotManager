@@ -7,14 +7,14 @@ const api = new KwaiApiService()
 const service = new VideoDiscoveryService(api, new VideoMapper())
 
 
-// transformar em uma funçao que executa a 1 hora
-
+// transformar em uma funçao que executa a cada 15 min
+// talvez jogar um multi-thread pra fazer varios fetchs ao mesmo tempo
 
 
 const server = createServer(async (req : any, res : any) =>  {
   try {
     if (req.url === '/videos') {
-      const videos = await service.fetchVideos(50) // fetch de 50 videos
+      const videos = await service.fetchVideos(500) // fetch de 15 videos
       res.writeHead(200, { 'Content-Type': 'application/json' })
       res.end(JSON.stringify(videos))
       return
@@ -27,6 +27,9 @@ const server = createServer(async (req : any, res : any) =>  {
     res.end(JSON.stringify({ error: 'Erro interno do servidor' }))
   }
 })
+
+
+
 
 
 

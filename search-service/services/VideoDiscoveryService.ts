@@ -9,7 +9,7 @@ export class VideoDiscoveryService {
     private mapper: VideoMapper
   ) {}
 
-  async fetchVideos(limit: number = 100): Promise<Video[]> {
+  async fetchVideos(limit: number = 500): Promise<Video[]> {
     const raw = await this.api.getFeed(limit)
     return raw.map(this.mapper.toDomain)
   }
