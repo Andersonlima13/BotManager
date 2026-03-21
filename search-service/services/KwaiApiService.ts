@@ -1,7 +1,12 @@
 import { ApiUrl } from "../api/ApiUrl.js"
+import { CookieService } from "./CookieService.js"
+
 
 export class KwaiApiService {
-  async getFeed(count: number , cursor?: string) {
+  constructor(private cookieService: CookieService) {}
+
+  async getFeed(count: number) {
+    const cookie = await this.cookieService.getCookie()
     const response = await fetch(ApiUrl , {
       method: "POST",
       headers: {
@@ -9,11 +14,10 @@ export class KwaiApiService {
         "Content-Type": "application/json",
         "Origin": "https://www.kwai.com",
         "Referer": "https://www.kwai.com/",
-        "Cookie": "SEU_COOKIE"
+        "Cookie": cookie
       },
       body: JSON.stringify({
         count,
-        pcursor: cursor, // 👈 chave aqui
         request_source: 1105,
         mobile: true
       })
