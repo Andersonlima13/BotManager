@@ -1,5 +1,5 @@
-import { RabbitMQConsumer } from './src/RabbitMQConsumer'
-import { VideoDownloader } from  './src/VideoDownloader'
+import { RabbitMQConsumer } from './src/RabbitMQConsumer.js'
+import { VideoDownloader } from  './src/VideoDownloader.js'
 
 const consumer = new RabbitMQConsumer();
 const downloader = new VideoDownloader('./downloads');
