@@ -9,8 +9,6 @@ export class RabbitMQConsumer {
     this.connection = await amqp.connect('amqp://localhost');
     this.channel = await this.connection.createChannel();
     await this.channel.assertQueue(this.queue, { durable: true });
-
-    // processa 1 mensagem por vez — não sobrecarrega o disco
     this.channel.prefetch(1);
   }
 

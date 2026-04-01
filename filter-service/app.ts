@@ -10,7 +10,7 @@ import {
   fetchDuration,
   cycleRunning,
   register
-} from './metrics/Metrics.js'
+} from './services/Metrics.js'
 
 
 

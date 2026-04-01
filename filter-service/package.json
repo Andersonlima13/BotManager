@@ -1,0 +1,23 @@
+{
+  "name": "search-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.8",
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "nodemon": "^3.1.14",
+    "playwright": "^1.58.2",
+    "prom-client": "^15.1.3"
+  }
+}
