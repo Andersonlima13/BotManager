@@ -25,9 +25,9 @@ const service = new VideoDiscoveryService(api, new VideoMapper())
 
 let isRunning = false
 
-async function fetchAndPublishVideos(): Promise<number> {
+async function fetchAndPublishVideos(): Promise<any[]> {
   if (isRunning) {
-    return 0
+    return []
   }
 
   isRunning = true
@@ -36,18 +36,16 @@ async function fetchAndPublishVideos(): Promise<number> {
  
   try {
     const videos = await service.fetchVideos(5)
-    console.log('VIDEOS:', videos.length)
     await Promise.all(videos.map(video => publisher.publish(video)))
 
     videosPublishedTotal.inc(videos.length) // ← conta vídeos publicados
     fetchCyclesTotal.inc({ status: 'success' }) // ← ciclo bem-sucedido
 
-
-    return videos.length
+    return videos
 
   } catch (err) {
     fetchCyclesTotal.inc({ status: 'error' }) // ← ciclo com erro
-    return 0
+    return []
   } finally {
     isRunning = false
      cycleRunning.set(0) // ← ciclo encerrado
@@ -62,26 +60,28 @@ setInterval(() => {
 }, 15_000)
 
 
+
+
 const server = createServer(async (req : any, res : any) =>  {
-
-
    if (req.url === '/metrics') {
     res.writeHead(200, { 'Content-Type': register.contentType })
     res.end(await register.metrics())
     return
   }
 
-
   if (req.url === '/videos') {
-    const count = await fetchAndPublishVideos()
+    const videos = await fetchAndPublishVideos()
 
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({
-      message: `${count} vídeos enviados para fila`
-    }));
-    return;
+    res.writeHead(200, { 'Content-Type': 'application/json' })
+    res.end(JSON.stringify(videos))
+    return
   }
-})
+    }
+)
+
+
+
+
 
 
 server.listen(3000, () => {
