@@ -1,0 +1,296 @@
+{
+  "cookies": [
+    {
+      "name": "kpn",
+      "value": "KWAI",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "apptype",
+      "value": "41",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sys",
+      "value": "KWAI",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "client_type",
+      "value": "3001",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bucket",
+      "value": "br",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "client_key",
+      "value": "65890b29",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "countryInfo",
+      "value": "BRA",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_did",
+      "value": "web_235099414A895ACE",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1808156870,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "webDid",
+      "value": "63f82188-1bbc-48ae-8ef8-3b43ccdb0d02",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": 1808157167,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "did",
+      "value": "63f82188-1bbc-48ae-8ef8-3b43ccdb0d02",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": 1808157167,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kwai_ckid",
+      "value": "1776620872156_68615505312744828",
+      "domain": ".mythad.com",
+      "path": "/",
+      "expires": 1811181168.510466,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kwai_uuid",
+      "value": "549d695425ade1adb626cec1246548f3",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1808156871,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_k_gid_collect",
+      "value": "1",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1776793671,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_k_cp",
+      "value": "1",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1776707271,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUn4tA29n5AyjARnzUA2mXnKr0yIvsHxju40RexKorIVmrR_FPaU6-agO2gqk3I",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1811180871.873738,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "google_gid",
+      "value": "CAESEOLpOA0bYqXqMbNpGWiX9kY",
+      "domain": ".mythad.com",
+      "path": "/",
+      "expires": 1811180872.25816,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol858izE2fH6rJuoFOPL-iquM68SmD9J3H9FYfLUNaV3CwQxoutRYiD4GhbvfIcSJEeGx9Po8sHyT_BlhzgnqQ6ik38TzaTYWv0hzC-c1dpcZ1SIGEbweOQzRAhe3VUXQsIvDWsy-NiWYin5az1kuH9CrAXwHQ%3D%3D%22%5D%5D",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1808156873,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1776620880050,\"i_b\":\"HK8V2Dhk1j9UbTGraJ+g2nXFYej0IuWVRqHeFJVoeeE\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1776620880050}",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": 1792172880,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userId",
+      "value": "150001721197338",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kwaipro.pwa_st",
+      "value": "Cg5rd2FpcHJvLnB3YS5zdBKQAS9ghVxZ_EoV98Dg0IJZVgJ2EnApntyz8XveZ5HdEBQWRfqRfIGM5yBdIa9VzyCB-jiKtW_JdvpY-vNXevQKp37IHlCllneLljlikphCZ0SbbgZYWeUzYE9vM0rH0hdYOh5fIIsO5Y7pVQYE1mMFKFqMhl3ZCn__hnLdQnU_y4Ho0cQbDQmoy-VLn-cYptbStxoSzevrDlOZ6mSOnPj7rAqsO7oiIiA3wwYazOGZ8eX6nr8b97flSozZiJofCXfwtpP9QMS7aSgFMAE",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kwaipro.pwa_ph",
+      "value": "38ca57d081461193db03be7df4c708babee0",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "i18n_redirected",
+      "value": "pt-BR",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": 1808157167,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionId",
+      "value": "23e1ca27-c356-417a-b09c-1d9b3888c685",
+      "domain": "www.kwai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%22c30fae48-749c-429b-90f0-ef0e96538b33%5C%22%2C%5B1776620871%2C897000000%5D%5D%22%5D%5D%5D",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1810317169,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.kwai.com",
+      "localStorage": [
+        {
+          "name": "webDid",
+          "value": "63f82188-1bbc-48ae-8ef8-3b43ccdb0d02"
+        },
+        {
+          "name": "OTHER_DEVICE_INCREASE_ID",
+          "value": "183"
+        },
+        {
+          "name": "kwai_player_device_id",
+          "value": "web_275727872BCBBA2E"
+        },
+        {
+          "name": "kwai_player_client_increment_id",
+          "value": "2"
+        },
+        {
+          "name": "google_ama_config",
+          "value": "[null,[],[1776707568839],null,[],null,[],null,null,null,null,null,null,null,null,null,null,[1,null,null,[]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+        },
+        {
+          "name": "LOAD_DEVICE_INCREASE_ID",
+          "value": "5"
+        },
+        {
+          "name": "WEBLOGGER_CUSTOM_INCREAMENT_ID_KEY",
+          "value": "137"
+        },
+        {
+          "name": "WEBLOGGER_INCREAMENT_ID_KEY",
+          "value": "12"
+        },
+        {
+          "name": "alg",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::h",
+          "value": "1776620873995"
+        }
+      ]
+    }
+  ]
+}
