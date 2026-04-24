@@ -3,10 +3,12 @@ import amqp from  "amqplib"
 export class RabbitMQConsumer {
   private connection: any;
   private channel: any;
-  private queue = 'videos';
+  private queue = 'approved'; // ← era 'videos'
 
   async connect() {
-    this.connection = await amqp.connect('amqp://localhost');
+    this.connection = await amqp.connect(
+      process.env.RABBITMQ_URL ?? 'amqp://localhost'
+    );
     this.channel = await this.connection.createChannel();
     await this.channel.assertQueue(this.queue, { durable: true });
     this.channel.prefetch(1);
@@ -19,10 +21,10 @@ export class RabbitMQConsumer {
       try {
         const video = JSON.parse(msg.content.toString());
         await handler(video);
-        this.channel.ack(msg); // confirma só após sucesso
+        this.channel.ack(msg);
       } catch (err) {
         console.error('Erro ao processar mensagem:', err);
-        this.channel.nack(msg, false, true); // devolve para a fila
+        this.channel.nack(msg, false, true);
       }
     });
   }
