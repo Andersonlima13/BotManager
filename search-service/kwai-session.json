@@ -72,120 +72,80 @@
     },
     {
       "name": "_did",
-      "value": "web_150879529396BC74",
+      "value": "web_5577830937337D0C",
       "domain": ".kwai.com",
       "path": "/",
-      "expires": 1809709211,
+      "expires": 1810577428,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "webDid",
-      "value": "5afb66e1-e357-46e8-8e30-da3fc29047da",
+      "value": "95ca006e-f0eb-4876-ad4b-2ff3b22c7345",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1809709317,
+      "expires": 1810840579,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "did",
-      "value": "5afb66e1-e357-46e8-8e30-da3fc29047da",
+      "value": "95ca006e-f0eb-4876-ad4b-2ff3b22c7345",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1809709317,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "FCCDCF",
-      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%222be02e83-d3f5-4f48-8ce4-e07d17c6107b%5C%22%2C%5B1778173212%2C781000000%5D%5D%22%5D%5D%5D",
-      "domain": ".kwai.com",
-      "path": "/",
-      "expires": 1811869212,
+      "expires": 1810840579,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "kwai_ckid",
-      "value": "1778173217138_70282203881276622",
+      "value": "1779041432890_71214577929421624",
       "domain": ".mythad.com",
       "path": "/",
-      "expires": 1812733318.426846,
+      "expires": 1813864580.244715,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "kwai_uuid",
-      "value": "8432f252057efa2773194dadc5c88ea5",
+      "value": "ad67044664a628ddec5da292f7e59765",
       "domain": ".kwai.com",
       "path": "/",
-      "expires": 1809709213,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_k_gid_collect",
-      "value": "1",
-      "domain": ".kwai.com",
-      "path": "/",
-      "expires": 1778346013,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_k_cp",
-      "value": "1",
-      "domain": ".kwai.com",
-      "path": "/",
-      "expires": 1778259613,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "IDE",
-      "value": "AHWqTUkaamPpcVTLQz2V0d2lpgwhKK5L05tOgjVaA1TmS36kIH4d2PP5MXnp9_IH3g8",
-      "domain": ".doubleclick.net",
-      "path": "/",
-      "expires": 1812733213.711735,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "FCNEC",
-      "value": "%5B%5B%22AKsRol8i88uIr-b1OYq11eL0cuZ8W7nfTEy4HcR0oG09tCc2AdTzvLHgoNozSWlYw4tB_3QqvBHbSJjrST6e18R-DfbTDDJJdHL35KRCA-vBRDWatUYXKL1KkS0smjL6sQY59ipn222JyPk9O0N-mN69MTfH3fSsKw%3D%3D%22%5D%5D",
-      "domain": ".kwai.com",
-      "path": "/",
-      "expires": 1809709214,
+      "expires": 1810577429,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "google_gid",
-      "value": "CAESEP-b2qFzeZfjdygt8Cfwd9E",
+      "value": "CAESEEXAAEEcXs1oujvyjUnRSmk",
       "domain": ".mythad.com",
       "path": "/",
-      "expires": 1812733214.108177,
+      "expires": 1813834190.673729,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol-Rxuw3C52qRQvQTTk412mbvxkOZETOZFFwrKFk5omVZy1DczfCXxtPF-lzRXNjxIF-e6GTu-jKScR9lSesCYKz-Jy3KGoLBUMdHaLU6Lb6-WYaueLdUV6qpDN1fG5yeZCw62ez4xl3-w9pMY7WEZpUQd1gNQ%3D%3D%22%5D%5D",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1810577430,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "g_state",
-      "value": "{\"i_l\":0,\"i_ll\":1778173215645,\"i_b\":\"DbtuSLvxFOEqxRROgT2PZNDMSp0e22XD3RAmrEWXOeI\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1778173215645}",
+      "value": "{\"i_l\":0,\"i_ll\":1779041431848,\"i_b\":\"TmY+MHeUaltP1Z0jl/EuOeTHpSZbCtFVRhR8qSneNQk\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1779041431848}",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1793725215,
+      "expires": 1794593431,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -202,7 +162,7 @@
     },
     {
       "name": "kwaipro.pwa_st",
-      "value": "Cg5rd2FpcHJvLnB3YS5zdBKQATdaA0YzSL2AiKaSG9A1OHJ_LCJuYkv1315D5t-SZ-QO5DBWl84S6De4QgcQFp5D6EDGJjwRIPw57j5l09i7Kz-dk0MeCeBT2c0QM7LTCWZkq95vgkY2um49zj8xog2D-ozBFUr1jGLb06pWpJwp2Ay5Nd6kqAaUKYqjhgGaMh-bh6uzflcgfu6ILPRoSEZr_BoShi_059Lzrxb6EtD_WKvo08glIiBKAdiafTDj-oOwmFbTp4uL7uwD-tiqZDvMa0NYadtZsygFMAE",
+      "value": "Cg5rd2FpcHJvLnB3YS5zdBKQAYQUw1ppbw1oi5KBbyfe174Brc_xS8IoxN2t9nwz_E1hj0xDUqitN1qOXZTwpGDSeN_9HZPYsPrdymLbGoEfy8J69qXwatwY3EI58RG0VIj5BZVpwl6M7S9lNq43CM7EghcpYIhp-_RhQLPwj29fxOSm52EDMPGgFe80H3UCmcKtHuoS1IhPFucr7Die53HBYxoSwKCii8jTBnl2PLpBKNw0BMllIiBAFpEC9jrQYfwfP1GTEMyG7t_eJRmvs0-y9myIwmcPiygFMAE",
       "domain": "www.kwai.com",
       "path": "/",
       "expires": -1,
@@ -212,10 +172,50 @@
     },
     {
       "name": "kwaipro.pwa_ph",
-      "value": "9a37ba43bed6ed2653f8bfa5b292463f3279",
+      "value": "957f1249e6b48cf5d8412bc042719c1e8969",
       "domain": "www.kwai.com",
       "path": "/",
       "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_k_gid_collect",
+      "value": "1",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1779446989,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_k_cp",
+      "value": "1",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1779360589,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkeLRiOZRsp5qWKvuCWavkZ3iB7tRXXO3nR1_l9acaHJzu6i2KjBTFdDuCx7ag",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1813834190.243029,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCCDCF",
+      "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%2219d644e5-7411-4b59-8437-42a5527d1951%5C%22%2C%5B1779041429%2C436000000%5D%5D%22%5D%5D%5D",
+      "domain": ".kwai.com",
+      "path": "/",
+      "expires": 1812999380,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -225,14 +225,14 @@
       "value": "pt-BR",
       "domain": "www.kwai.com",
       "path": "/",
-      "expires": 1809709316,
+      "expires": 1810840579,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sessionId",
-      "value": "48b1c7d9-eb16-4cde-9a22-25206ca8ce42",
+      "value": "79660d62-6bdd-41af-83ea-916a69a820c2",
       "domain": "www.kwai.com",
       "path": "/",
       "expires": -1,
@@ -247,35 +247,35 @@
       "localStorage": [
         {
           "name": "webDid",
-          "value": "5afb66e1-e357-46e8-8e30-da3fc29047da"
+          "value": "95ca006e-f0eb-4876-ad4b-2ff3b22c7345"
         },
         {
           "name": "OTHER_DEVICE_INCREASE_ID",
-          "value": "87"
-        },
-        {
-          "name": "kwai_player_device_id",
-          "value": "web_42722706505ECD37"
+          "value": "362"
         },
         {
           "name": "kwai_player_client_increment_id",
-          "value": "2"
+          "value": "18"
+        },
+        {
+          "name": "kwai_player_device_id",
+          "value": "web_643753761AB34D75"
         },
         {
           "name": "google_ama_config",
-          "value": "[null,[],[1778259718913],null,[],null,[],null,null,null,null,null,null,null,null,null,null,[1,null,null,[]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
+          "value": "[null,[],[1779390980977],null,[],null,[],null,null,null,null,null,null,null,null,null,null,[1,null,null,[]],null,null,null,null,null,null,null,null,null,null,null,null,null,null,[[\"Toggle toolbar expansion\",\"Toggle privacy and legal settings display\",\"Dismiss privacy and legal settings display\"]]]"
         },
         {
           "name": "LOAD_DEVICE_INCREASE_ID",
-          "value": "5"
+          "value": "25"
         },
         {
           "name": "WEBLOGGER_CUSTOM_INCREAMENT_ID_KEY",
-          "value": "45"
+          "value": "73"
         },
         {
           "name": "WEBLOGGER_INCREAMENT_ID_KEY",
-          "value": "12"
+          "value": "52"
         },
         {
           "name": "alg",
@@ -288,7 +288,7 @@
       "localStorage": [
         {
           "name": "rc::h",
-          "value": "1778173218127"
+          "value": "1779041434667"
         }
       ]
     }
