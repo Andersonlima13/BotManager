@@ -20,6 +20,5 @@ modulo de planos
 aumentar, cancelar o plano em acao,
 verificar o status que o plano tá (se ativo ou nao)
 ou qual plano ta usando, conectar com apis de pagamento
-tipo
 
 ----------------------------------
