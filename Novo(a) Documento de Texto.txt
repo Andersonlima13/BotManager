@@ -1,4 +1,3 @@
-- superadmin - admnistrador do sistema
 
 
 admin - visao administrativa, cadastra 
